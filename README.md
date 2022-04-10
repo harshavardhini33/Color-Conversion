@@ -21,9 +21,12 @@ Split and merge the image using cv2.split and cv2.merge commands.
 End the program and close the output image windows.
 
 ## Program:
+```
+Developed By: Harshavardhini M
+Register Number: 212221240015
+```
+
 ```python
-# Developed By: Harshavardhini M
-# Register Number: 212221240015
 # i) Convert BGR and RGB to HSV and GRAY
 import cv2
 sun_color_image = cv2.imread('image.jpg')
@@ -106,4 +109,4 @@ cv2.destoryAllWindows()
  ![f](d.png)
 
 ## Result:
-Thus the color conversion was performed between RGB, HSV and YCbCr color models.
+Thus the color conversion was performed between RGB, HSV and YCbCr color models
